@@ -1,0 +1,2 @@
+class WeeklyDigestMailer < ApplicationMailer
+end

@@ -24,7 +24,7 @@
   <div class="field">
     <%= f.label :email_distribution %>
     <div class="controls">
-      <%= collection_select(:distribution, :regularity, Distribution.all, :id, :regularity, {}, { :multiple => false, :selected => "Weekly" }) %>
+      <%= collection_select( :users, :distributions_id, Distribution.all, :id, :regularity, {}, { :multiple => false, :selected => "1" }) %>
     </div>
   </div>
 
