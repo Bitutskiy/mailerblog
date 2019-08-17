@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :distributions
   devise_for :users
   root 'posts#index'
 
